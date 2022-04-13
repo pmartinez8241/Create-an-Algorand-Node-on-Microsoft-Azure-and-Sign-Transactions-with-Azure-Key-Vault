@@ -40,12 +40,8 @@ AlgorandOnAzureTutorial-VM
 
 Figure 1-3: Enter Virtual machine name
 
-!!! Tip
-    In this tutorial we will be using image: Ubuntu Server 20.04 LTS - Gen2
-* To meet the requirements of 2-4 vCPU, 4-8GB RAM we will be using:
-&nbsp;&nbsp;- VM Size: Standard_D2s_v3
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 2 VCPUs
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 8GB ram
+In this tutorial we will be using image: Ubuntu Server 20.04 LTS - Gen2 to meet the requirements of 2-4 vCPU, 4-8GB RAM we will be using
+VM Size: Standard_D2s_v3 which has 2 VCPUs and 8GB of ram
 
 	
 
