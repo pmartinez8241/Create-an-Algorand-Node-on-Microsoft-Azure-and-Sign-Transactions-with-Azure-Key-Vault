@@ -26,7 +26,7 @@ Figure 1-2: Select **Create** then **Azure virtual machine**
 	</tr>
 	<tr>
 		<td>
-			It is easiest to work with many different resources when they all have a common naming convention. </br>For this tutorial lets name our Virtual Machine AlgorandOnAzureTutorial-VM as shown in Figure 1-3
+			It is easiest to work with many different resources when they all have a common naming convention.
 		</td>
 	</tr>
 </table>
@@ -78,8 +78,21 @@ Currently you should have the same configurations selected as in Figure 1-4, Exc
 
 Figure 1-4: Verify your Configuration
 
-!!! Tip
-    Azure Virtual Machines come with very little storage so, we are going to have to add a disk
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:triangular_flag_on_post: Information
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+			Azure Virtual Machines come with very little storage so, we are going to have to add a disk.
+		</td>
+	</tr>
+</table>
+
 Click on ** Create and attach a new Disk ** as shown in Figure 1-5
 ![EditorImages/2022/03/26 23:38/Figure_1-5_Create_and_attach_a_new_disk.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A38/Figure_1-5_Create_and_attach_a_new_disk.png) 
 
@@ -103,8 +116,20 @@ Figure 1-7: Create 256GB Standard SSD
 
 Figure 1-8: Create a new disk page, click OK
 
-!!! Tip
-    This is just a basic tutorial, so Networking, Management, advanced, and tags will be left with their default settings
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+This is just a basic tutorial, so Networking, Management, advanced, and tags will be left with their default settings.
+		</td>
+	</tr>
+</table>
     
 From Disks we are going to head straight to ** Review + create **, as highlighted in Figure 1-9
 
@@ -262,9 +287,21 @@ Now we are going to run the script
 ```
 ./update.sh -i -c stable -p ~/node -d ~/node/data -n
 ```
-
-!!! Tip
-    -n = no automatic start after download
+<br />
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+-n = no automatic start after download 
+		</td>
+	</tr>
+</table>
     
 For this tutorial I am going to install a Testnet node, but the default configuration is on the Mainnet, so modifications will have to be made. Configuration files for four different networks are available in the `~/node/genesisfiles` folder.
 
@@ -680,8 +717,20 @@ Figure 1-7: Create 256GB Standard SSD
 
 Figure 1-8: Create a new disk page, click OK
 
-!!! Tip
-    This is just a basic tutorial, so Networking, Management, advanced, and tags will be left with their default settings
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+This is just a basic tutorial, so Networking, Management, advanced, and tags will be left with their default settings
+		</td>
+	</tr>
+</table>
     
 From Disks we are going to head straight to ** Review + create **, as highlighted in Figure 1-9
 
@@ -1016,10 +1065,29 @@ Now lets ACTIVATE our Virtual Environment
 source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 ```
 
-!!! Alert
-    If you have successfully activated you Virtual Environment, you will see the name of your Virtual Environment appended to the beginning of your command line
-    
-    ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png) 
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Alert
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+
+If you have successfully activated you Virtual Environment, you will see the name of your Virtual Environment appended to the beginning of your command line
+
+		</td>
+	</tr>
+    <tr>
+        <td>
+
+![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png) 
+
+        </td>
+    </tr>
+</table>
 
 
 Now that the Virtual Environment is Activated, lets add all the python packages we will need for this tutorial
@@ -1213,3 +1281,4 @@ transaction_id = algod_client.send_transaction(signed_txn)
 
 print(transaction_id)
 ```
+
