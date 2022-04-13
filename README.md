@@ -31,6 +31,7 @@ Figure 1-2: Select **Create** then **Azure virtual machine**
 	</tr>
 </table>
 
+For this tutorial lets name our Virtual Machine AlgorandOnAzureTutorial-VM as shown in Figure 1-3
 
 ```
 AlgorandOnAzureTutorial-VM
