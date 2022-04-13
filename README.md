@@ -303,7 +303,6 @@ curl https://raw.githubusercontent.com/algorand/go-algorand-doc/master/downloads
 
 ```
 
-![EditorImages/2022/03/03 01:48/Download_updater_script.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/03%2001%3A48/Download_updater_script.png)
 
 After downloading the update script it will only have read, and write permissions. We will have to change the permissions so we can read and execute the script. The following command gives our user read and execute permissions
 
@@ -505,8 +504,6 @@ Now lets ACTIVATE our Virtual Environment
 source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 ```
 
-    
-    ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png) 
 
 <table align="center">
 	<tr>
