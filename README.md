@@ -38,24 +38,36 @@ Figure 1-3: Enter Virtual machine name
 &nbsp;&nbsp;- VM Size: Standard_D2s_v3
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 2 VCPUs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 8GB ram
-<>
-<table align = "center">
+
+	
+
+<table align="center">
 	<tr>
-		<th>
-			<p align="center" >Tip</p>
-		</th>
+		<th align="center">
+        <p align="center">
+        	:warning: Tip
+        </p>
+        </th>
 	</tr>
 	<tr>
 		<td>
-			<p>Select a Region closest to your location.</p>
-			<p>
-            
-            To find a location that is closet to you [Click Here](https://azure.microsoft.com/en-us/global-infrastructure/geographies/#geographies) 
-            
-            </p>
-		</td>
-	</tr>
+			Select a Region closest to your location.
+        </td>
+    </tr>
+    <tr align="center">
+<td> To find a location that is closet to you 
+
+<p align="center">
+
+[Click Here](https://azure.microsoft.com/en-us/global-infrastructure/geographies/#geographies) 
+
+</p>
+
+</td>
+    </tr>
 </table>
+
+
 
 Currently you should have the same configurations selected as in Figure 1-4, Except for the region which depends on your location. After making sure you configurations look like those of Figure 1-4, click Next : Disks >
 
