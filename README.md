@@ -16,12 +16,20 @@ On the Virtual machines page select **Create** followed by **Azure virtual machi
 ![EditorImages/2022/03/26 22:54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2022%3A54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png)
 
 Figure 1-2: Select **Create** then **Azure virtual machine**
-<table>
-!!! Tip
-    It is easiest to work with many different resources when they all have a common naming convention
-<tr>
-For this tutorial lets name our Virtual Machine AlgorandOnAzureTutorial-VM as shown in Figure 1-3
-</ table>
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+			It is easiest to work with many different resources when they all have a common naming convention. </br>For this tutorial lets name our Virtual Machine AlgorandOnAzureTutorial-VM as shown in Figure 1-3
+		</td>
+	</tr>
+</table>
 
 
 ```
