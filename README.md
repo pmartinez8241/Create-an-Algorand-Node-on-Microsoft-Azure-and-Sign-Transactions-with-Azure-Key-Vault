@@ -52,16 +52,14 @@ Figure 1-3: Enter Virtual machine name
 	<tr>
 		<td>
 			Select a Region closest to your location.
-        </td>
-    </tr>
-    <tr align="center">
-<td> To find a location that is closet to you 
-
-<p align="center">
+            </br>
+            To find a location that is closet to you
+            
+<div align="center">
 
 [Click Here](https://azure.microsoft.com/en-us/global-infrastructure/geographies/#geographies) 
 
-</p>
+<div>
 
 </td>
     </tr>
