@@ -175,6 +175,8 @@ Figure 1-12: Download SSH Key
 
 ---
 
+## Create an Identity for your Virtual Machine
+
 By default our Virtual Machine Doesn't come with an Identity, which means that it wont be able to access other Azure Resources in the Resource Group. Before we move on to connecting to our Virtual Machine using SSH, lets give our Virtual Machine an identity.
 
 When your Virtual Machine deployment is complete, select the drop down arrow to the left of the words **Deployment details**. Now you should see a list of resource, select your virtual machine. Figure 1-13 highlights the drop down arrow and your Virtual Machine in the Resource list.
@@ -253,6 +255,7 @@ ssh -i $HOME"\Downloads\AlgorandOnAzureTutorial-VM_key.pem" azureuser@XYZ
 
 ___
 
+## SSH private key permission Issues
 
 SSH keys are the identity of a single user, so OpenSSH will not allow you to use a key it considers "too open". OpenSSH (Client \ Server) is now integrated into operating systems such as Microsoft Windows, macOS, and most Linux distributions.
 
@@ -502,10 +505,28 @@ Now lets ACTIVATE our Virtual Environment
 source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 ```
 
-!!! Alert
-    If you have successfully activated you Virtual Environment, you will see the name of your Virtual Environment appended to the beginning of your command line
     
     ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png) 
+
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+    If you have successfully activated you Virtual Environment, you will see the name of your Virtual Environment appended to the beginning of your command line
+<div>
+
+![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png) 
+
+</div>
+		</td>
+	</tr>
+</table>
 
 
 Now that the Virtual Environment is Activated, lets add all the python packages we will need for this tutorial
@@ -701,12 +722,9 @@ print(transaction_id)
 ```
 Figure 1-3: Enter Virtual machine name
 
-!!! Tip
-    In this tutorial we will be using image: Ubuntu Server 20.04 LTS - Gen2
-* To meet the requirements of 2-4 vCPU, 4-8GB RAM we will be using:
-&nbsp;&nbsp;- VM Size: Standard_D2s_v3
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 2 VCPUs
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + 8GB ram
+
+
+In this tutorial we will be using image: **Ubuntu Server 20.04 LTS - Gen2** To meet the requirements of 2-4 vCPU, 4-8GB RAM we will be using a VM Size: Standard_D2s_v3 which has 2 VCPUs, and 8GB ram
 
 
 
@@ -740,8 +758,23 @@ Currently you should have the same configurations selected as in Figure 1-4, Exc
 
 Figure 1-4: Verify your Configuration
 
-!!! Tip
-    Azure Virtual Machines come with very little storage so, we are going to have to add a disk
+
+
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+			Azure Virtual Machines come with very little storage so, we are going to have to add a disk
+		</td>
+	</tr>
+</table>
+
 Click on ** Create and attach a new Disk ** as shown in Figure 1-5
 ![EditorImages/2022/03/26 23:38/Figure_1-5_Create_and_attach_a_new_disk.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A38/Figure_1-5_Create_and_attach_a_new_disk.png) 
 
@@ -852,8 +885,21 @@ Figure 1-16 Click **Yes** Enabling system assigned Identity
 
 In figure 1-11 we downloaded a private key that we will use to connect to out Virtual Machine using SSH.
 
-!!! Alert
+
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
     Azure doesn't always output a .PEM file when it Generate SSH key pair. Do not be alarmed if you receive a .cer or a .crt file.
+		</td>
+	</tr>
+</table>
     
 When we create the Virtual Machine we created an Administrative user named **azureuser**.
 Figure 2-1 is a snippet of figure 1-4 where we can find the name of our user.
@@ -949,8 +995,22 @@ Now we are going to run the script
 ./update.sh -i -c stable -p ~/node -d ~/node/data -n
 ```
 
-!!! Tip
-    -n = no automatic start after download
+
+
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+-n = no automatic start after download
+		</td>
+	</tr>
+</table>
     
 For this tutorial I am going to install a Testnet node, but the default configuration is on the Mainnet, so modifications will have to be made. Configuration files for four different networks are available in the `~/node/genesisfiles` folder.
 
