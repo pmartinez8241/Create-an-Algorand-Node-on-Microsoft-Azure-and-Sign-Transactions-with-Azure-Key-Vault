@@ -1342,7 +1342,17 @@ The command above outputs a `Transaction ID`, as shown in Figure 8-1.
 
 ![EditorImages/2022/04/12 18:05/Figure_8-1_Transaction_ID.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/12%2018%3A05/Figure_8-1_Transaction_ID.png)
 
+Now lets head to the Algorand Testnet explorer.
 
+```
+https://testnet.algoexplorer.io/
+```
+
+Finally, type your `Transaction ID` in the Search Field to see the Transaction Overview, as shown in Figure 8-2
+
+![EditorImages/2022/04/13 17:46/Figure_8-2_Transaction_Information.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/13%2017%3A46/Figure_8-2_Transaction_Information.png) 
+
+Figure 8-2: Transaction Overview
 
 ---
 
