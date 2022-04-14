@@ -21,10 +21,9 @@ We will also be configuring Azure Key Vault to hold our Private Key used for sig
 
 </br>
 </br>
-</br>
-</br>
 
-# 1. Create A Virtual Machine
+
+## 1. Create A Virtual Machine
 
 Search for Virtual machines on the Azure Portal Home page, then Select Virtual machines under Services as shown in **Figure 1-1**.
 
@@ -270,7 +269,7 @@ There will be one more prompt asking if you would like to Enable System Assigned
 
 ++Figure 1-16 Click **Yes** Enabling system assigned Identity++
 
-# 2. Connect to Virtual Machine using SSH
+## 2. Connect to Virtual Machine using SSH
 
 In figure 1-11, we downloaded a private key that we will use to connect to our Virtual Machine using SSH.
 
@@ -368,7 +367,7 @@ icacls.exe $HOME\Downloads\AlgorandOnAzureTutorial-VM_key.pem /inheritance:r
 ```
 
 
-# 3. Install Algorand node
+## 3. Install Algorand node
 
 Use the following command to update and upgrade the currently installed Ubuntu packages.
 ``` 
@@ -497,7 +496,7 @@ goal node catchup $(curl https://algorand-catchpoints.s3.us-east-2.amazonaws.com
 
 
 
-# 4. Create an Azure Key Vault
+## 4. Create an Azure Key Vault
 
 On the Azure Portal Home Page, Search for Key vaults, then click Key Vaults as Highlighted in Figure 4-1.
 
@@ -593,7 +592,7 @@ Now confirm that your configuration is valid, click Create as shown in Figure 4-
 
 ++Figure 4-10: Confirm configuration is valid then click Create++
 
-# 5. Create Python Virtual Environment, and clone Tutorial GitHub Repository
+## 5. Create Python Virtual Environment, and clone Tutorial GitHub Repository
 
 Let's create a virtual environment for our python code in this step. This environment will hold all the packages we need to run the scripts we will be downloading from GitHub.
 
@@ -654,7 +653,7 @@ Last we will clone this tutorials GitHub repository into your `algorand_on_azure
 git clone https://github.com/pmartinez8241/Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault.git
 ```
 
-# 6. Create Algorand accounts
+## 6. Create Algorand accounts
 
 For this tutorial, we will be creating two accounts, one account that will send ALGO, and another account that will receive ALGO. Inside the git hub repository, you downloaded a file called `create_algorand_account.py`, and run the following command to create both accounts.
 
@@ -737,7 +736,7 @@ The `algosdk` has a function that generates an account for you, consisting of a 
 
 The `create_algorand_account.py` file creates two environment variables, `ALGORAND_SENDER_ACCOUNT_ADDRESS` and `ALGORAND_RECEIVER_ACCOUNT_ADDRESS,` both of which hold the Account Address of an Algorand Account. Both environmental variables are stored in the `.env` file, which will be located in the same directory as the `create_algorand_account.py` python script.
 
-# 7. Use Algorand Dispenser to fill account with ALGO
+## 7. Use Algorand Dispenser to fill account with ALGO
 
 We will fill the `SENDER` account with 20 ALGO for this step. To fill the Account with ALGO, we will need the Account Address located in the directory of the GitHub repository we downloaded; run the following command from inside that directory.
 
@@ -767,7 +766,7 @@ Once at the site above, verify that you are not a robot, paste your Account Addr
 
 Each time you put your address into the Algorand Dispenser, you will get 10 algo. Refresh your browser after each use. You will need to use the Algorand Dispenser twice to get the 20 Algo you will need for this tutorial.
 
-# 8. Create and Sign an Algorand Transaction
+## 8. Create and Sign an Algorand Transaction
 
 We have all of the variables we will need to create a transaction and sign it. Run the following command to broadcast the signed transaction throughout the Test Network.
 
