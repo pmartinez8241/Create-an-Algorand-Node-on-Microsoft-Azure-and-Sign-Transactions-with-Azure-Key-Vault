@@ -17,6 +17,13 @@ To achieve high availability and fault tolerance, running your Algorand node on 
 
 We will also be configuring Azure Key Vault to hold our Private Key used for signing Algorand transactions. All python code will be available at this [GitHub](https://github.com/pmartinez8241/Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault)
 
+# Steps
+
+</br>
+</br>
+</br>
+</br>
+
 # 1. Create A Virtual Machine
 
 Search for Virtual machines on the Azure Portal Home page, then Select Virtual machines under Services as shown in **Figure 1-1**.
