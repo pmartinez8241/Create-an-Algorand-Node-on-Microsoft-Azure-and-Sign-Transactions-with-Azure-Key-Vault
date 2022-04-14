@@ -1,6 +1,21 @@
 # Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault
 Tutorial on how to create an Algorand node on a Azure Virtual Machine, as well as Storing Secrets in Azure 
 
+# Requirements
+
+- Azure Pay-As-You-Go subscription, or better
+- Selection of Azure VM with at least the [minimum node system requirements](https://algorand.foundation/algorand-protocol/network) specified by the Algorand Foundation
+&nbsp;&nbsp; - 2-4 vCPU
+&nbsp;&nbsp; - 4-8GB RAM
+&nbsp;&nbsp; - 100 - 200GB SSD
+&nbsp;&nbsp; - 100 Mbps broadband
+
+# Background
+
+To achieve high availability and fault tolerance, running your Algorand node on Microsoft Azure is one of your best options. Azure makes it easy to configure a virtual machine with specifications that won’t burn through your money. For this tutorial, we will deploy a virtual machine that meets the minimum system requirements of an Algorand node.
+
+
+We will also be configuring Azure Key Vault to hold our Private Key used for signing Algorand transactions. All python code will be available at this [GitHub](https://github.com/pmartinez8241/Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault)
 
 # 1. Create A Virtual Machine
 
