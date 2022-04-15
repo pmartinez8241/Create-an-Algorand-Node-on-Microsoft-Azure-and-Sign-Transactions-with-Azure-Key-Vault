@@ -34,8 +34,8 @@ Search for Virtual machines on the Azure Portal Home page, then Select Virtual m
 
 
 
-| **Figure 1-1: Search for and Select Virtual machines** |
-----------------------------------------------------------
+| Figure 1-1: Search for and Select Virtual machines |
+--
 
 On the Virtual machines page, select **Create** followed by **Azure virtual machine** as shown in ***_Figure 1-2_***.
 
