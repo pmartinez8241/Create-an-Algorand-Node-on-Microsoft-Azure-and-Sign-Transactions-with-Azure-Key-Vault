@@ -634,7 +634,6 @@ source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 <div>
 
 ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png)
-
 </div>
 
 		</td>
@@ -758,13 +757,16 @@ The Address that was output from Figure 7-1 needs to be copied and pasted into t
 https://bank.testnet.algorand.network/
 ```
 
-Once at the site above, verify that you are not a robot, paste your Account Address into the Text Field, and last click dispense. Once you click dispense, you should see `Status: Code 200 success` as illustrated in figure 7-2.
+Once at the site above, verify that you are not a robot, paste your Account Address into the Text Field, and last click dispense. Once you click dispense, you should see the `Transaction ID` as illustrated in figure 7-2.
 
-![EditorImages/2022/04/11 20:43/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/11%2020%3A43/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png)
+<div align="center">
+
+![EditorImages/2022/04/15 02:53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/15%2002%3A53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png) 
+</div>
 
 ++Figure 7-2: Verify not a robot, paste account address, click dispense++
 
-Each time you put your address into the Algorand Dispenser, you will get 10 algo. Refresh your browser after each use. You will need to use the Algorand Dispenser twice to get the 20 Algo you will need for this tutorial.
+Each time you put your address into the Algorand Dispenser, you will get 5 algo. Refresh your browser after each use. You will need to use the Algorand Dispenser four times to get the 20 Algo you will need for this tutorial.
 
 ## 8. Create and Sign an Algorand Transaction
 
