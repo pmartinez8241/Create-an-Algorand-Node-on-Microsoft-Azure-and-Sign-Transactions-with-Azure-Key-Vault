@@ -631,9 +631,10 @@ source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 		<td>
 		    If you have successfully activated your Virtual Environment, you will see the name of your Virtual Environment appended to the beginning of your command line.
 
-<div>
+<div align="center">
 
 ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png)
+
 </div>
 
 		</td>
