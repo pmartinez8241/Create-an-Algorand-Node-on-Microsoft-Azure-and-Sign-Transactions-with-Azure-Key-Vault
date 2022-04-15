@@ -634,7 +634,6 @@ source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 <div>
 
 ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png)
-
 </div>
 
 		</td>
@@ -758,7 +757,7 @@ The Address that was output from Figure 7-1 needs to be copied and pasted into t
 https://bank.testnet.algorand.network/
 ```
 
-Once at the site above, verify that you are not a robot, paste your Account Address into the Text Field, and last click dispense. Once you click dispense, you should see `Status: Code 200 success` as illustrated in figure 7-2.
+Once at the site above, verify that you are not a robot, paste your Account Address into the Text Field, and last click dispense. Once you click dispense, you should see the `Transaction ID` as illustrated in figure 7-2.
 
 <div align="center">
 
