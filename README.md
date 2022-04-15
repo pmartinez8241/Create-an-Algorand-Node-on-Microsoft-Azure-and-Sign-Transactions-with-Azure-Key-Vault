@@ -147,8 +147,8 @@ Azure Virtual Machines come with very little storage, so we are going to have to
 		</td>
 	</tr>
 </table>
-    
-Click on ** Create and attach a new Disk ** as shown in Figure 1-5.
+
+Click on  ***Create and attach a new Disk*** as shown in Figure 1-5.
 
 <div align="center">
 
@@ -158,7 +158,7 @@ Click on ** Create and attach a new Disk ** as shown in Figure 1-5.
 <table>
 	<tr>
 		<th>
-Figure 1-5: Select **Create and attach a new Disk**
+Figure 1-5: Select Create and attach a new Disk
 		</th>
 	</tr>
 </table>
@@ -172,9 +172,9 @@ Click on **Change Size** as shown in Figure 1-6.
 
 <table>
 	<tr>
-		<th>
-Figure 1-6: Select **Change Size**
-		</th>
+<th>
+Figure 1-6: Select Change Size
+</th>
 	</tr>
 </table>
 
@@ -232,7 +232,13 @@ From Disks, we will head straight to ** Review + create **, as highlighted in Fi
 ![EditorImages/2022/03/27 00:12/Figure_1-9_Review.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/27%2000%3A12/Figure_1-9_Review.png) 
 </div>
 
-++Figure 1-9: Click on Review + create, to review the Virtual Machines final configuration++
+<table>
+	<tr>
+		<th>
+Figure 1-9: Click on Review + create, to review the Virtual Machines final configuration
+		</th>
+	</tr>
+</table>
 
 On the Create a virtual machine page, Check the top of the page to see if you configuration is valid, then select **Create**. Figure 1-10 highlights a configuration that passes validation.
 
@@ -241,7 +247,13 @@ On the Create a virtual machine page, Check the top of the page to see if you co
 ![EditorImages/2022/03/27 01:54/Figure_1-10_Create_the_VM.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/27%2001%3A54/Figure_1-10_Create_the_VM.png)
 </div>
 
-++Figure 1-10: Validate configuration then press Create++.
+<table>
+	<tr>
+		<th>
+Figure 1-10: Validate configuration then press Create
+		</th>
+	</tr>
+</table>
 
 Once you click **Create**, you are given the option to Download the Key Pair for SSH click ** Download private key and create resource ** as shown in figure 1-11.
 
@@ -250,7 +262,13 @@ Once you click **Create**, you are given the option to Download the Key Pair for
 ![EditorImages/2022/03/27 03:04/Figure_1-11_Download_key_pair.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/27%2003%3A04/Figure_1-11_Download_key_pair.png) 
 </div>
 
-++Figure 1-11: Download Private Key and Create Resources++
+<table>
+	<tr>
+		<th>
+Figure 1-11: Download Private Key and Create Resources
+		</th>
+	</tr>
+</table>
 
 
 <table align="center">
@@ -275,7 +293,13 @@ Once the SSH private key is downloaded, as shown in figure 1-12, the creation of
 ![EditorImages/2022/03/28 22:01/Figure_1-12_Download_SSH_Private_Key.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/28%2022%3A01/Figure_1-12_Download_SSH_Private_Key.png)
 </div>
 
-++Figure 1-12: Download SSH Key++
+<table>
+	<tr>
+		<th>
+Figure 1-12: Download SSH Key
+		</th>
+	</tr>
+</table>
 
 ---
 
@@ -290,7 +314,13 @@ When your Virtual Machine deployment is complete, select the drop-down arrow to 
 ![EditorImages/2022/04/08 00:43/Figure_1-13_select_your_virtual_machine_in_dropdown_list.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2000%3A43/Figure_1-13_select_your_virtual_machine_in_dropdown_list.png)
 </div>
 
-++Figure 1-13: Find you Virtual Machine in Drop Down list++
+<table>
+	<tr>
+		<th>
+Figure 1-13: Find you Virtual Machine in Drop Down list
+		</th>
+	</tr>
+</table>
 
 Now in the search bar under the name of your Virtual Machine, type identity. Then click on Identity, as shown in figure 1-14.
 
@@ -299,7 +329,13 @@ Now in the search bar under the name of your Virtual Machine, type identity. The
 ![EditorImages/2022/04/08 00:49/Figure_1-14_search_for_and_click_Identitty.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2000%3A49/Figure_1-14_search_for_and_click_Identitty.png)
 </div>
 
-++Figure 1-14: Search for identity, then click Identity++
+<table>
+	<tr>
+		<th>
+Figure 1-14: Search for identity, then click Identity
+		</th>
+	</tr>
+</table>
 
 We are going to turn **On** System Assigned Managed Identity. Set status to **On**on the Identity page, then click **Save**. Figure 1-15 shows the Status switch, which must be turned on, and the save button must be clicked for the status to be changed.
 
@@ -308,7 +344,13 @@ We are going to turn **On** System Assigned Managed Identity. Set status to **On
 ![EditorImages/2022/04/08 01:03/Figure_1-15_Set_status_switch_to_On_and_click_Save.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2001%3A03/Figure_1-15_Set_status_switch_to_On_and_click_Save.png)
 </div>
 
-++Figure 1-15: Set status switch to **On**, then click Save++
+<table>
+	<tr>
+		<th>
+Figure 1-15: Set status switch to **On**, then click Save
+		</th>
+	</tr>
+</table>
 
 There will be one more prompt asking if you would like to Enable System Assigned Managed Identity, click Yes as shown in figure 1-16.
 
@@ -317,7 +359,13 @@ There will be one more prompt asking if you would like to Enable System Assigned
 ![EditorImages/2022/04/08 01:06/Figure_1-16_Click_Yes_to_enabling_System_assigned_Managed_Identity.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2001%3A06/Figure_1-16_Click_Yes_to_enabling_System_assigned_Managed_Identity.png)
 </div>
 
-++Figure 1-16 Click **Yes** Enabling system assigned Identity++
+<table>
+	<tr>
+		<th>
+Figure 1-16 Click **Yes** Enabling system assigned Identity
+		</th>
+	</tr>
+</table>
 
 ## 2. Connect to Virtual Machine using SSH
 
@@ -347,7 +395,13 @@ Figure 2-1 is a snippet of figure 1-4 where we can find the name of our user.
 ![EditorImages/2022/04/08 01:34/Figure_2-1_get_username.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2001%3A34/Figure_2-1_get_username.png)
 </div>
 
-++Figure 2-1: Username location++
+<table>
+	<tr>
+		<th>
+Figure 2-1: Username location
+		</th>
+	</tr>
+</table>
 
 Now we need to get the Public IP Address to our Virtual Machine. On the Azure Portal Home Page select Virtual Machines as shown in Figure 2-2.
 
@@ -356,7 +410,13 @@ Now we need to get the Public IP Address to our Virtual Machine. On the Azure Po
 ![EditorImages/2022/04/08 01:37/Figure_2-2_Click_on_Virtual_machines.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2001%3A37/Figure_2-2_Click_on_Virtual_machines.png)
 </div>
 
-++Figure 2-2: Click on Virtual Machines on Azure Portal Home Page++
+<table>
+	<tr>
+		<th>
+Figure 2-2: Click on Virtual Machines on Azure Portal Home Page
+		</th>
+	</tr>
+</table>
 
 On the Record for the AlgorandOnAzureTutorial-VM, take note of the Public IP address. Figure 2-3 shows where you can find the Public IP Address.
 
@@ -365,7 +425,13 @@ On the Record for the AlgorandOnAzureTutorial-VM, take note of the Public IP add
 ![EditorImages/2022/04/08 01:45/Figure_2-3_get_public_ip_address.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/08%2001%3A45/Figure_2-3_get_public_ip_address.png)
 </div>
 
-++Figure 2-3: take note of the Public IP Address++
+<table>
+	<tr>
+		<th>
+Figure 2-3: take note of the Public IP Address
+		</th>
+	</tr>
+</table>
 
 The following commands assume that you haven't moved your Private Key out of the Downloads folder.
 
@@ -394,7 +460,13 @@ Figure 2-4 illustrates the error you will get if your Private key is Accessible 
 ![EditorImages/2022/04/12 03:41/Figure_2-4_Private_Key_Permissions_Error.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/12%2003%3A41/Figure_2-4_Private_Key_Permissions_Error.png) 
 </div>
 
-++Figure 2-4: Private Key permissions are "too open"++
+<table>
+	<tr>
+		<th>
+Figure 2-4: Private Key permissions are "too open"
+		</th>
+	</tr>
+</table>
 
 The very least the User needs is Read Permissions, while the group associated with the file and everyone else should have no permissions.
 
@@ -501,7 +573,13 @@ When Sync Time, highlighted in figure 3-1, equals 0.0, your node is fully synced
 ![EditorImages/2022/03/29 22:38/Figure_3-1_check_the_status_of_your_node.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/29%2022%3A38/Figure_3-1_check_the_status_of_your_node.png)
 </div>
 
-++Figure 3-1: Check node status++
+<table>
+	<tr>
+		<th>
+Figure 3-1: Check node status
+		</th>
+	</tr>
+</table>
 
 
 Later in this tutorial, we will need the Node HTTP Address and the node Rest API Token. Now that your node is up and running, you can see these values with the following command.
@@ -536,7 +614,13 @@ The code for the catchup point should look like a string of numbers and letters,
 ![EditorImages/2022/04/11 16:25/Figure_3-2_get_latest_catchpoint.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/11%2016%3A25/Figure_3-2_get_latest_catchpoint.png)  
 </div>
 
-++Figure 3-2: Testnet catchup point++
+<table>
+	<tr>
+		<th>
+Figure 3-2: Testnet catchup point
+		</th>
+	</tr>
+</table>
 
 
 Enter the following command to use Fast Catchup.
@@ -555,14 +639,27 @@ On the Azure Portal Home Page, Search for Key vaults, then click Key Vaults as H
 ![EditorImages/2022/04/09 00:22/Figure_4-1_search_and_click_Key_vaults.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A22/Figure_4-1_search_and_click_Key_vaults.png) 
 </div>
 
-++Figure 4-1: Search for Key vaults then click Key vaults under services++
+<table>
+	<tr>
+		<th>
+Figure 4-1: Search for Key vaults then click Key vaults under services
+		</th>
+	</tr>
+</table>
 
 In the center of the Key vaults Page, Click Create key vault, as shown in Figure 4-2.
 <div align="center">
 
 ![EditorImages/2022/04/09 00:22/Figure_4-2_select_Create_key_vault_on_key_vault_page.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A22/Figure_4-2_select_Create_key_vault_on_key_vault_page.png) 
 </div>
-++Figure 4-2: Click Create key vault on the center of the page++
+
+<table>
+	<tr>
+		<th>
+Figure 4-2: Click Create key vault on the center of the page
+		</th>
+	</tr>
+</table>
 
 Now we are at the Create a key vault page. For the ** Resource group **, select the same group your virtual machine is in. The Region should be the same as your Resource group, and the Key vault name used for this tutorial is:
 
@@ -576,7 +673,14 @@ Make sure that your configuration looks like Figure 4-3, except for the region i
 
 ![EditorImages/2022/04/09 00:23/Figure_4-3_Set_Resource_Group_Region_and_Name.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A23/Figure_4-3_Set_Resource_Group_Region_and_Name.png) 
 </div>
-++Figure 4-3: Set Resource group, region, Key vault name, then click Next: Access policy >++
+
+<table>
+	<tr>
+		<th>
+Figure 4-3: Set Resource group, region, Key vault name, then click Next: Access policy >
+		</th>
+	</tr>
+</table>
 
 On the Access Policy page, select **Add Access Policy** as highlighted in Figure 4-4.
 
@@ -585,7 +689,13 @@ On the Access Policy page, select **Add Access Policy** as highlighted in Figure
 ![EditorImages/2022/04/09 00:23/Figure_4-4_Click_on_Add_Access_Policy.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A23/Figure_4-4_Click_on_Add_Access_Policy.png)  
 </div>
 
-++Figure 4-4: click on Add Access Policy++
+<table>
+	<tr>
+		<th>
+Figure 4-4: click on Add Access Policy
+		</th>
+	</tr>
+</table>
 
 In the **Configure from template** Drop-Down, select Secret Management as shown in Figure 4-5.
 
@@ -594,7 +704,13 @@ In the **Configure from template** Drop-Down, select Secret Management as shown 
 ![EditorImages/2022/04/09 00:23/Figure_4-5_Select_Secret_Management.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A23/Figure_4-5_Select_Secret_Management.png)
 </div>
 
-++Figure 4-5: Select Secret Management from Configure from template Drop-Down++
+<table>
+	<tr>
+		<th>
+Figure 4-5: Select Secret Management from Configure from template Drop-Down
+		</th>
+	</tr>
+</table>
 
 Now select **None selected** under Select Principal as highlighted in Figure 4-6.
 
@@ -603,7 +719,13 @@ Now select **None selected** under Select Principal as highlighted in Figure 4-6
 ![EditorImages/2022/04/09 00:24/Figure_4-6_select_None_selected_under_Select_Principal.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A24/Figure_4-6_select_None_selected_under_Select_Principal.png)  
 </div>
 
-++Figure 4-6: select **None selected** under Select Principal++
+<table>
+	<tr>
+		<th>
+Figure 4-6: select **None selected** under Select Principal
+		</th>
+	</tr>
+</table>
 
 On the right side of the page, you will be asked to select a principal. Our principal will be our Virtual Machine. Select our virtual machine, then click Select as illustrated in Figure 4-7.
 
@@ -612,7 +734,13 @@ On the right side of the page, you will be asked to select a principal. Our prin
 ![EditorImages/2022/04/09 00:24/Figure_4-7_Select_Virtual_Machine_the_click_Select.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A24/Figure_4-7_Select_Virtual_Machine_the_click_Select.png)  
 </div>
 
-++Figure 4-7: Select Virtual Machine then click Select++
+<table>
+	<tr>
+		<th>
+Figure 4-7: Select Virtual Machine then click Select
+		</th>
+	</tr>
+</table>
 
 Now click add, as highlighted in Figure 4-8.
 
@@ -622,7 +750,13 @@ Now click add, as highlighted in Figure 4-8.
 </div>
 
 
-++Figure 4-8: Click add to add Access Policy++
+<table>
+	<tr>
+		<th>
+Figure 4-8: Click add to add Access Policy
+		</th>
+	</tr>
+</table>
 
 On the Create a key vault page, you will see the Access Policy you just created under Applications. Click on Review + create, as illustrated in Figure 4-9.
 
@@ -631,7 +765,13 @@ On the Create a key vault page, you will see the Access Policy you just created 
 ![EditorImages/2022/04/09 00:24/Figure_4-9_Click_on_Review__create.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A24/Figure_4-9_Click_on_Review__create.png) 
 </div>
 
-++Figure 4-9: Click on Review + create++
+<table>
+	<tr>
+		<th>
+Figure 4-9: Click on Review + create
+		</th>
+	</tr>
+</table>
 
 Now confirm that your configuration is valid, click Create as shown in Figure 4-10.
 
@@ -640,7 +780,13 @@ Now confirm that your configuration is valid, click Create as shown in Figure 4-
 ![EditorImages/202/04/09 00:24/Figure_4-10_Check_Validation_and_click_Create.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/09%2000%3A24/Figure_4-10_Check_Validation_and_click_Create.png) 
 </div>
 
-++Figure 4-10: Confirm configuration is valid then click Create++
+<table>
+	<tr>
+		<th>
+Figure 4-10: Confirm configuration is valid then click Create
+		</th>
+	</tr>
+</table>
 
 ## 5. Create Python Virtual Environment, and clone Tutorial GitHub Repository
 
@@ -800,7 +946,13 @@ The output from the command above is shown in figure 7-1.
 ![EditorImages/2022/04/11 20:27/Figure_7-1_Get_Sender_Account_Address.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/11%2020%3A27/Figure_7-1_Get_Sender_Account_Address.png) 
 </div>
 
-++Figure 7-1: Account Address for the send account++
+<table>
+	<tr>
+		<th>
+Figure 7-1: Account Address for the send account
+		</th>
+	</tr>
+</table>
 
 The Address that was output from Figure 7-1 needs to be copied and pasted into the Algorand dispenser. The Algorand dispenser outputs Algo that is usable only in the `Test Network.` Once copy the Account Address, go to the following website.
 ```
@@ -814,7 +966,13 @@ Once at the site above, verify that you are not a robot, paste your Account Addr
 ![EditorImages/2022/04/15 02:53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/15%2002%3A53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png) 
 </div>
 
-++Figure 7-2: Verify not a robot, paste account address, click dispense++
+<table>
+	<tr>
+		<th>
+Figure 7-2: Verify not a robot, paste account address, click dispense
+		</th>
+	</tr>
+</table>
 
 Each time you put your address into the Algorand Dispenser, you will get 5 algo. Refresh your browser after each use. You will need to use the Algorand Dispenser four times to get the 20 Algo you will need for this tutorial.
 
@@ -830,7 +988,13 @@ The command above outputs a `Transaction ID,` as shown in Figure 8-1.
 
 ![EditorImages/2022/04/12 18:05/Figure_8-1_Transaction_ID.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/12%2018%3A05/Figure_8-1_Transaction_ID.png)
 
-++Figure 8-1: Transaction Id++
+<table>
+	<tr>
+		<th>
+Figure 8-1: Transaction Id
+		</th>
+	</tr>
+</table>
 
 Now let's head to the Algorand Testnet explorer.
 
@@ -842,7 +1006,13 @@ Finally, type your `Transaction ID` in the Search Field to see the Transaction O
 
 ![EditorImages/2022/04/13 17:46/Figure_8-2_Transaction_Information.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/13%2017%3A46/Figure_8-2_Transaction_Information.png) 
 
-++Figure 8-2: Transaction Overview++
+<table>
+	<tr>
+		<th>
+Figure 8-2: Transaction Overview
+		</th>
+	</tr>
+</table>
 
 
 ---
