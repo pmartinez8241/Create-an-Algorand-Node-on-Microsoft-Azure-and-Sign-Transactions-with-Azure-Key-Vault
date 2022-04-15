@@ -636,7 +636,6 @@ source ~/algorand_on_azure_project/algorand_on_azure_env/bin/activate
 ![EditorImages/2022/03/31 21:14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/31%2021%3A14/Figure_7-1_Successful_Activation_of_Virtual_Environment.png)
 
 </div>
-
 		</td>
 	</tr>
 </table>
