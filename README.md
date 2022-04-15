@@ -48,8 +48,14 @@ On the Virtual machines page, select **Create** followed by **Azure virtual mach
 ![EditorImages/2022/03/26 22:54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2022%3A54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png)
 </div>
 
-|Figure 1-2: Select **Create** then **Azure virtual machine** |
-------------------------------------------------------------------
+<table>
+	<tr>
+		<th>
+Figure 1-2: Select **Create** then **Azure virtual machine** 
+		</th>
+	</tr>
+</table>
+
 
 
 <table align="center">
@@ -78,7 +84,13 @@ AlgorandOnAzureTutorial-VM
 ![EditorImages/2022/03/26 23:12/Figure_1-3_Set_Virtual_Machine_Name.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A12/Figure_1-3_Set_Virtual_Machine_Name.png)
 </div>
 
-++Figure 1-3: Enter Virtual machine name++
+<table>
+	<tr>
+		<th>
+Figure 1-3: Enter Virtual machine name 
+		</th>
+	</tr>
+</table>
 
 In this tutorial we will be using image: Ubuntu Server 20.04 LTS - Gen2 To meet the requirements of 2-4 vCPU, 4-8GB RAM we will be using VM Size: Standard_D2s_v3, 2 VCPUs and 8GB ram
 
@@ -112,8 +124,14 @@ Currently, you should have the same configurations selected as in Figure 1-4, Ex
 
 ![EditorImages/2022/03/26 23:29/Figure_1-4_Virtual_Machine_Configuration.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A29/Figure_1-4_Virtual_Machine_Configuration.png) 
 </div>
-++Figure 1-4: Verify your Configuration++
 
+<table>
+	<tr>
+		<th>
+Figure 1-4: Verify your Configuration
+		</th>
+	</tr>
+</table>
 
 <table align="center">
 	<tr>
@@ -137,7 +155,13 @@ Click on ** Create and attach a new Disk ** as shown in Figure 1-5.
 ![EditorImages/2022/03/26 23:38/Figure_1-5_Create_and_attach_a_new_disk.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A38/Figure_1-5_Create_and_attach_a_new_disk.png) 
 </div>
 
-++Figure 1-5: Select **Create and attach a new Disk**++
+<table>
+	<tr>
+		<th>
+Figure 1-5: Select **Create and attach a new Disk**
+		</th>
+	</tr>
+</table>
 
 Click on **Change Size** as shown in Figure 1-6.
 
@@ -146,7 +170,13 @@ Click on **Change Size** as shown in Figure 1-6.
 ![EditorImages/2022/03/26 23:43/Figure_1-6_Change_Size.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A43/Figure_1-6_Change_Size.png) 
 </div>
 
-++Figure 1-6: Select **Change Size**++
+<table>
+	<tr>
+		<th>
+Figure 1-6: Select **Change Size**
+		</th>
+	</tr>
+</table>
 
 To meet the minimum storage requirements dictated by the Algorand Foundation, we will create a **256GB Standard SSD**. Once your drive selection looks like Figure 1-7, **click OK**.
 
@@ -155,7 +185,13 @@ To meet the minimum storage requirements dictated by the Algorand Foundation, we
 ![EditorImages/2022/03/26 23:56/Figure_1-7_Select_a_disk_size.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2023%3A56/Figure_1-7_Select_a_disk_size.png) 
 </div>
 
-++Figure 1-7: Create 256GB Standard SSD++
+<table>
+	<tr>
+		<th>
+Figure 1-7: Create 256GB Standard SSD
+		</th>
+	</tr>
+</table>
 
 **Click OK** once more on the Create a new disk page, shown in Figure 1-8.
 
@@ -164,7 +200,13 @@ To meet the minimum storage requirements dictated by the Algorand Foundation, we
 ![EditorImages/2022/03/27 00:05/Figure_1-8_Disk_Selection_Conclusion.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/27%2000%3A05/Figure_1-8_Disk_Selection_Conclusion.png) 
 </div>
 
-++Figure 1-8: Create a new disk page, click OK++
+<table>
+	<tr>
+		<th>
+Figure 1-8: Create a new disk page, click OK
+		</th>
+	</tr>
+</table>
 
 
 
