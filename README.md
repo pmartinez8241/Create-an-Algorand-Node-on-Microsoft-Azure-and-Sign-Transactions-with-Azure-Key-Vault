@@ -32,13 +32,10 @@ Search for Virtual machines on the Azure Portal Home page, then Select Virtual m
 ![EditorImages/2022/03/26 22:44/Figure_1-1_Search_for_and_Select_Virtual_machines.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2022%3A44/Figure_1-1_Search_for_and_Select_Virtual_machines.png) 
 </div>
 
-<table>
-	<tr>
-		<td align="left">
-Figure 1-1: Search for and Select Virtual machines
-		<td>
-	</tr>
-</table>
+
+
+| **Figure 1-1: Search for and Select Virtual machines** |
+----------------------------------------------------------
 
 On the Virtual machines page, select **Create** followed by **Azure virtual machine** as shown in ***_Figure 1-2_***.
 
@@ -46,7 +43,9 @@ On the Virtual machines page, select **Create** followed by **Azure virtual mach
 
 ![EditorImages/2022/03/26 22:54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/03/26%2022%3A54/Figure_1-2_Under_Create_select_Azure_Virtual_Machine.png)
 </div>
-++Figure 1-2: Select **Create** then **Azure virtual machine**++
+
+|Figure 1-2: Select **Create** then **Azure virtual machine** |
+------------------------------------------------------------------
 
 
 <table align="center">
