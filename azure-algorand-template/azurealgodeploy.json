@@ -6,7 +6,7 @@
             "defaultValue": "AlgorandOnAzureTutorial-VM",
             "type": "string"
         },"sshPublicKey": {
-            "defaultValue": "ENTER YOUR PUBLIC KEY HERE",
+            "defaultValue": "",
             "type": "Securestring"
         },
         "location": {
