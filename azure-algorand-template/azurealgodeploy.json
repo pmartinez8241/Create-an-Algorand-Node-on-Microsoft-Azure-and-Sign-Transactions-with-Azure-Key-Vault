@@ -9,9 +9,9 @@
             "defaultValue": "",
             "type": "Securestring"
         },
-        "location": {
-            "defaultValue": "westus",
-            "type": "string"
+        "region": {
+            "defaultValue":"[resourceGroup().location]",
+            "type":"string"
         },
         "virtualNetwork": {
             "defaultValue": "[concat(parameters('tutorialName'),'_virtual-network')]",
@@ -50,7 +50,7 @@
             "type": "Microsoft.Compute/sshPublicKeys",
             "apiVersion": "2021-11-01",
             "name": "[parameters('sshPublicKeyName')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "properties": {
                 "publicKey": "[parameters('sshPublicKey')]"
             }
@@ -73,7 +73,7 @@
             "type": "Microsoft.Network/virtualNetworks",
             "apiVersion": "2020-11-01",
             "name": "[parameters('virtualNetwork')]",
-            "location": "[parameters('location')]",
+            "location": "[resourceGroup().location]",
             "properties": {
                 "addressSpace": {
                     "addressPrefixes": [
@@ -99,7 +99,7 @@
             "type": "Microsoft.Network/publicIPAddresses",
             "apiVersion": "2020-11-01",
             "name": "[parameters('networkPublicIpAddress')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Basic",
                 "tier": "Regional"
@@ -115,7 +115,7 @@
             "type": "Microsoft.Network/networkSecurityGroups",
             "apiVersion": "2020-11-01",
             "name": "[parameters('networkSecurityGroup')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "properties": {
                 "securityRules": [
                     {
@@ -142,7 +142,7 @@
             "type": "Microsoft.Network/networkInterfaces",
             "apiVersion": "2020-11-01",
             "name": "[parameters('networkInterfaces')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "dependsOn": [
                 "[resourceId('Microsoft.Network/publicIPAddresses', parameters('networkPublicIpAddress'))]",
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetwork'), 'default')]",
@@ -180,7 +180,7 @@
             "type": "Microsoft.Compute/disks",
             "apiVersion": "2018-06-01",
             "name": "[concat(parameters('tutorialName'),'-datadisk1')]",
-            "location": "[parameters('location')]",
+            "location": "[resourceGroup().location]",
             "sku": {
                 "name": "Standard_LRS"
             },
@@ -195,7 +195,7 @@
             "type": "Microsoft.Compute/virtualMachines",
             "apiVersion": "2021-11-01",
             "name": "[parameters('tutorialName')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "dependsOn": [
                 "[resourceId('Microsoft.Compute/disks/', concat(parameters('tutorialName'),'-datadisk1'))]",
                 "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces'))]"
@@ -278,7 +278,7 @@
             "type": "Microsoft.KeyVault/vaults",
             "apiVersion": "2021-11-01-preview",
             "name": "[parameters('keyVaultName')]",
-            "location": "westus",
+            "location": "[resourceGroup().location]",
             "dependsOn":[
                 "[resourceId('Microsoft.Compute/virtualMachines', parameters('tutorialName'))]"
             ],
