@@ -50,7 +50,7 @@
             "type": "Microsoft.Compute/sshPublicKeys",
             "apiVersion": "2021-11-01",
             "name": "[parameters('sshPublicKeyName')]",
-            "location": "[resourceGroup().location]",
+            "location": "[parameters('region')]",
             "properties": {
                 "publicKey": "[parameters('sshPublicKey')]"
             }
