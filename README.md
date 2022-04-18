@@ -1188,6 +1188,13 @@ In the create_algorand_transaction.py script, we sent 10 ALGOS from the Sender A
 
 Once the prepared transaction is made, inserting the `Private Key` of your Algorand key into the `sign()` function makes it ready to be broadcast through the Algorand Testnet. To finalize the transaction, all that is needed is to send the transaction using the `send_transaction()` function.
 
+
+---
+
+# Conclusion
+
+In this tutorial, we learned about some of the services azure provides and how to secure those services. We now know the basics of storing **Secrets** in Azure Key Vault and Deploying a Linux virtual machine. Storing API Keys, SSH Key, and Cryptocurrency Private keys in Azure Key Vault will significantly reduce the burden of keeping these values safe. We have also learned how to deploy an Algorand node and synchronize it using Fast Catchup. If you did this tutorial using Azure Web Portal, try at least once deploying your Azure web resources using the template in this [GitHub Repository](https://github.com/pmartinez8241/Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault) to see how much less complicated it makes deployments.
+
 </br>
 </br>
 </br>
