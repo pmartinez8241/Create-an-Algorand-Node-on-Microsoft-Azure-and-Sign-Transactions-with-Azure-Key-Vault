@@ -88,14 +88,40 @@ Figure 0-3: Download private key
 	</tr>
 </table>
 
-!!! Tip
-    Right-click on `Deploy to Azure` and open in `New Tab` or `New Window`; if you don't, you will be redirected off this tutorial to the `Custom Deployment` azure page.
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+            Right-click on `Deploy to Azure` and open in `New Tab` or `New Window`; if you don't, you will be redirected off this tutorial to the `Custom Deployment` azure page.
+		</td>
+	</tr>
+</table>
+
+    
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpmartinez8241%2FCreate-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault%2Fmain%2Fazure-algorand-template%2Fazurealgodeploy.json)
 
-
-!!! Tip
-    If you did not run into any problems with your Deployment, then you can skip `Step one` and `Step four`.
+<table align="center">
+	<tr>
+		<th align="center">
+        		<p align="center">
+        			:warning: Tip
+        		</p>
+        	</th>
+	</tr>
+	<tr>
+		<td>
+            If you did not run into any problems with your Deployment, then you can skip `Step one` and `Step four`.
+		</td>
+	</tr>
+</table>
+    
 
 </br>
 </br>
