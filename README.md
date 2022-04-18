@@ -1,7 +1,7 @@
 # Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault
 Tutorial on how to create an Algorand node on a Azure Virtual Machine, as well as Storing Secrets in Azure 
 
-# Requirements
+# Requirement
 
 - Azure Pay-As-You-Go subscription, or better
 - Selection of Azure VM with at least the [minimum node system requirements](https://algorand.foundation/algorand-protocol/network) specified by the Algorand Foundation
@@ -43,20 +43,38 @@ Figure 0-1 highlights the fields that need modifying, and what your `Custom Depl
 
 ![EditorImages/2022/04/18 00:56/Figure_0-1_Important_fields.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2000%3A56/Figure_0-1_Important_fields.png) 
 
-Figure 0-1: modify the highlighted fields 
+<table>
+	<tr>
+		<th>
+Figure 0-1: modify the highlighted fields
+		</th>
+	</tr>
+</table>
 
 On the `Review + create` page check to see the Template Passes Validation then click `create`, as shown in Figure 0-2
 
 ![EditorImages/2022/04/18 01:06/Figure_0-2_validation.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A06/Figure_0-2_validation.png) 
 
+<table>
+	<tr>
+		<th>
 Figure 0-2: Check if template is valid then click `create`
+		</th>
+	</tr>
+</table>
+
 
 Finally, download your private key as shown in figure 0-3
 
 ![EditorImages/2022/04/18 01:19/Figure_0-3_Download_ssh_key_pair.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A19/Figure_0-3_Download_ssh_key_pair.png)
 
+<table>
+	<tr>
+		<th>
 Figure 0-3: Download private key
-
+		</th>
+	</tr>
+</table>
 
 !!! Tip
     Right-click on `Deploy to Azure` and open in `New Tab` or `New Window`; if you don't, you will be redirected off this tutorial to the `Custom Deployment` azure page.
