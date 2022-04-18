@@ -21,7 +21,8 @@ We will also be configuring Azure Key Vault to hold our Private Key used for sig
 
 </br>
 </br>
-# Optional - Use an Azure Arm Template to deploy all resources needed for this tutorial
+
+## Optional - Use an Azure Arm Template to deploy all resources needed for this tutorial
 
 In steps one and four of this tutorial, we'll create two resources, a Linux virtual machine and an azure KeyVault. Everything, including the permissions needed for the Virtual Machine to access Azure Keyvault, can be made using an Azure arm template. ARM stands for Azure Resource Manager, and it enables you to create, update, and delete resources in your Azure account.
 
