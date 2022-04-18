@@ -21,6 +21,53 @@ We will also be configuring Azure Key Vault to hold our Private Key used for sig
 
 </br>
 </br>
+# Optional - Use an Azure Arm Template to deploy all resources needed for this tutorial
+
+In steps one and four of this tutorial, we'll create two resources, a Linux virtual machine and an azure KeyVault. Everything, including the permissions needed for the Virtual Machine to access Azure Keyvault, can be made using an Azure arm template. ARM stands for Azure Resource Manager, and it enables you to create, update, and delete resources in your Azure account.
+
+If you would like to create all the resources required for this tutorial using the Azure Portal, skip this section and start at Step One, otherwise after clicking `Deploy to Azure` prepare to do the following:
+
+- For Resource Group, Click Create New and use this Name
+```
+AlgorandOnAzureTutorial-VM_group
+```
+- For `Key pair name`, use the following name
+```
+AlgorandOnAzureTutorial-VM_key
+```
+
+- Last, make sure that the Region is correct, if not select the proper region from the dropdown field
+
+Figure 0-1 highlights the fields that need modifying, and what your `Custom Deployment` page should look like
+
+![EditorImages/2022/04/18 00:56/Figure_0-1_Important_fields.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2000%3A56/Figure_0-1_Important_fields.png) 
+
+Figure 0-1: modify the highlighted fields 
+
+On the `Review + create` page check to see the Template Passes Validation then click `create`, as shown in Figure 0-2
+
+![EditorImages/2022/04/18 01:06/Figure_0-2_validation.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A06/Figure_0-2_validation.png) 
+
+Figure 0-2: Check if template is valid then click `create`
+
+Finally, download your private key as shown in figure 0-3
+
+![EditorImages/2022/04/18 01:19/Figure_0-3_Download_ssh_key_pair.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A19/Figure_0-3_Download_ssh_key_pair.png)
+
+Figure 0-3: Download private key
+
+
+!!! Tip
+    Right-click on `Deploy to Azure` and open in `New Tab` or `New Window`; if you don't, you will be redirected off this tutorial to the `Custom Deployment` azure page.
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpmartinez8241%2FCreate-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault%2Fmain%2Fazure-algorand-template%2Fazurealgodeploy.json)
+
+
+!!! Tip
+    If you did not run into any problems with your Deployment, then you can skip `Step one` and `Step four`.
+
+</br>
+</br>
 
 
 ## 1. Create A Virtual Machine
