@@ -1,7 +1,7 @@
 # Create-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault
 Tutorial on how to create an Algorand node on a Azure Virtual Machine, as well as Storing Secrets in Azure 
 
-# Requirement
+# Requirements
 
 - Azure Pay-As-You-Go subscription, or better
 - Selection of Azure VM with at least the [minimum node system requirements](https://algorand.foundation/algorand-protocol/network) specified by the Algorand Foundation
