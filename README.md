@@ -118,6 +118,9 @@ Figure 0-3: Download private key
 	</tr>
 </table>
 
+</br>
+</br>
+</br>
 
 <div align="center">
 
