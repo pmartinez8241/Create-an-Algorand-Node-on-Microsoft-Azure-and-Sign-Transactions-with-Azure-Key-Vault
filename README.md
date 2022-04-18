@@ -103,15 +103,11 @@ Figure 0-3: Download private key
 	</tr>
 </table>
 
-    
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpmartinez8241%2FCreate-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault%2Fmain%2Fazure-algorand-template%2Fazurealgodeploy.json)
-
 <table align="center">
 	<tr>
 		<th align="center">
         		<p align="center">
-        			:warning: Tip
+        				:fire: Important
         		</p>
         	</th>
 	</tr>
@@ -121,6 +117,10 @@ Figure 0-3: Download private key
 		</td>
 	</tr>
 </table>
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fpmartinez8241%2FCreate-an-Algorand-Node-on-Microsoft-Azure-and-Sign-Transactions-with-Azure-Key-Vault%2Fmain%2Fazure-algorand-template%2Fazurealgodeploy.json)
+
+
     
 
 </br>
