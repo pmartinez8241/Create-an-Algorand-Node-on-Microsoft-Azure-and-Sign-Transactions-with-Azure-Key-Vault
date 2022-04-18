@@ -1065,18 +1065,10 @@ https://bank.testnet.algorand.network/
 Once at the site above, verify that you are not a robot, paste your Account Address into the Text Field, and last click dispense. Once you click dispense, you should see the `Transaction ID` as illustrated in figure 7-2.
 
 <div align="center">
-<<<<<<< HEAD
-
-![EditorImages/2022/04/15 02:53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/15%2002%3A53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png) 
-</div>
-=======
->>>>>>> deploy-template
 
 ![EditorImages/2022/04/15 02:53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/15%2002%3A53/Figure_7-2_Paste_Address_check_not_a_robot_and_see_if_successful.png) 
 </div>
 
-<<<<<<< HEAD
-=======
 <table>
 	<tr>
 		<th>
