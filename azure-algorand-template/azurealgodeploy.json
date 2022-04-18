@@ -9,10 +9,6 @@
             "defaultValue": "",
             "type": "Securestring"
         },
-        "region": {
-            "defaultValue":"[resourceGroup().location]",
-            "type":"string"
-        },
         "virtualNetwork": {
             "defaultValue": "[concat(parameters('tutorialName'),'_virtual-network')]",
             "type": "string"
@@ -50,7 +46,7 @@
             "type": "Microsoft.Compute/sshPublicKeys",
             "apiVersion": "2021-11-01",
             "name": "[parameters('sshPublicKeyName')]",
-            "location": "[parameters('region')]",
+            "location": "[resourceGroup().location]",
             "properties": {
                 "publicKey": "[parameters('sshPublicKey')]"
             }
