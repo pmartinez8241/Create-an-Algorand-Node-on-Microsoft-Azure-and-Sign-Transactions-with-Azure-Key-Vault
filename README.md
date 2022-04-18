@@ -45,7 +45,7 @@ Figure 0-1 highlights the fields that need modifying, and what your `Custom Depl
 <div align="center">
 
 ![EditorImages/2022/04/18 00:56/Figure_0-1_Important_fields.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2000%3A56/Figure_0-1_Important_fields.png) 
-</div
+</div>
 
 <table>
 	<tr>
@@ -61,7 +61,7 @@ On the `Review + create` page check to see the Template Passes Validation then c
 <div align="center">
 
 ![EditorImages/2022/04/18 01:06/Figure_0-2_validation.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A06/Figure_0-2_validation.png) 
-</div
+</div>
 
 <table>
 	<tr>
