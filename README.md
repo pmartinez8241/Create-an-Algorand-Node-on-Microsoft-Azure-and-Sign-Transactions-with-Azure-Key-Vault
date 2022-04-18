@@ -41,7 +41,11 @@ AlgorandOnAzureTutorial-VM_key
 
 Figure 0-1 highlights the fields that need modifying, and what your `Custom Deployment` page should look like
 
+
+<div align="center">
+
 ![EditorImages/2022/04/18 00:56/Figure_0-1_Important_fields.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2000%3A56/Figure_0-1_Important_fields.png) 
+</div
 
 <table>
 	<tr>
@@ -53,7 +57,11 @@ Figure 0-1: modify the highlighted fields
 
 On the `Review + create` page check to see the Template Passes Validation then click `create`, as shown in Figure 0-2
 
+
+<div align="center">
+
 ![EditorImages/2022/04/18 01:06/Figure_0-2_validation.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A06/Figure_0-2_validation.png) 
+</div
 
 <table>
 	<tr>
@@ -66,7 +74,11 @@ Figure 0-2: Check if template is valid then click `create`
 
 Finally, download your private key as shown in figure 0-3
 
+
+<div align="center">
+
 ![EditorImages/2022/04/18 01:19/Figure_0-3_Download_ssh_key_pair.png](https://algorand-devloper-portal-app.s3.amazonaws.com/static/EditorImages/2022/04/18%2001%3A19/Figure_0-3_Download_ssh_key_pair.png)
+</div>
 
 <table>
 	<tr>
